@@ -26,7 +26,7 @@ body {
   padding-bottom: 19px;
   display: flex;
   justify-content: center;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-weight: 200;
   font-size: 16px;
   letter-spacing: 0.8px;
@@ -91,11 +91,6 @@ body {
 }
 
 #button11 {
-  width: 65px;
-  height: 56px;
-  margin-right: 11px;
-  border-radius: 10px;
-  background-color: #9196a4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 200;
@@ -104,6 +99,11 @@ body {
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
+  width: 65px;
+  height: 56px;
+  margin-right: 11px;
+  border-radius: 10px;
+  background-color: #9196a4;
 }
 
 #button12 {
@@ -140,7 +140,7 @@ body {
   width: 65px;
   height: 56px;
   border-radius: 10px;
-  background-color: #9196a4;
+  background-color: #373d4d;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 200;
@@ -374,4 +374,285 @@ body {
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
+}
+/* @media only screen and (max-width: 850px) {
+  body {
+    background-image: none;
+  }
+  #container {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  #title {
+    padding-top: 30px;
+    padding-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 27px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+  }
+  #ans {
+    width: 82%;
+    height: 360px;
+  }
+  #row1 {
+    width: 82%;
+    height: 110px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  #row2 {
+    width: 82%;
+    height: 110px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  #row3 {
+    width: 82%;
+    height: 110px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  #row4 {
+    width: 82%;
+    height: 110px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  #row5 {
+    width: 82%;
+    height: 110px;
+    display: flex;
+  }
+} */
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: none;
+  }
+  #container {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 249, 249, 0.7);
+  }
+  #title {
+    padding-top: 30px;
+    padding-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+  }
+  #ans {
+    width: 82%;
+    height: 230px;
+  }
+  #row1 {
+    width: 100%;
+    height: 95px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #row2 {
+    width: 100%;
+    height: 95px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #row3 {
+    width: 100%;
+    height: 95px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #row4 {
+    width: 100%;
+    height: 95px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #row5 {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #button11 {
+    width: 114px;
+    height: 82px;
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 82px;
+    vertical-align: middle;
+  }
+
+  #button12 {
+    width: 114px;
+    height: 82px;
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 82px;
+    vertical-align: middle;
+  }
+  #button13 {
+    width: 114px;
+    height: 82px;
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 82px;
+    vertical-align: middle;
+  }
+  #button14 {
+    width: 114px;
+    height: 82px;
+    font-size: 24px;
+    line-height: 82px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  #button21 {
+    width: 114px;
+    height: 82px;
+    margin-right: 4px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+  }
+
+  #button22 {
+    width: 114px;
+    height: 82px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  #button23 {
+    width: 114px;
+    height: 82px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  #button24 {
+    width: 114px;
+    height: 82px;
+    font-size: 22px;
+    line-height: 82px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  #button31 {
+    width: 114px;
+    height: 82px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+
+  #button32 {
+    width: 114px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    height: 82px;
+    margin-right: 4px;
+  }
+  #button33 {
+    width: 114px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    height: 82px;
+    margin-right: 4px;
+  }
+  #button34 {
+    width: 114px;
+    height: 82px;
+    font-size: 24px;
+    line-height: 82px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  #button41 {
+    width: 114px;
+    height: 82px;
+    margin-right: 4px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+  }
+
+  #button42 {
+    width: 114px;
+    height: 82px;
+    margin-right: 4px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+  }
+  #button43 {
+    width: 114px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    height: 82px;
+    margin-right: 4px;
+  }
+  #button44 {
+    width: 114px;
+    height: 82px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  #button51 {
+    width: 198px;
+    height: 82px;
+    margin-right: 4px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+  }
+
+  #button52 {
+    width: 114px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    height: 82px;
+    margin-right: 4px;
+  }
+  #button53 {
+    width: 114px;
+    height: 82px;
+    font-size: 23px;
+    line-height: 82px;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+  #allButtons {
+    width: 82%;
+    height: 0;
+  }
+  #container {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 249, 249, 0.7);
+  }
 }
