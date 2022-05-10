@@ -468,8 +468,8 @@ body {
     background: rgba(255, 249, 249, 0.7);
   }
   #title {
-    padding-top: 30px;
-    padding-bottom: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     font-family: sans-serif;
@@ -480,39 +480,39 @@ body {
   }
   #ans {
     width: 82%;
-    height: 230px;
+    height: 210px;
   }
   #row1 {
     width: 100%;
-    height: 95px;
-    margin-bottom: 5px;
+    height: 90px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-evenly;
   }
   #row2 {
     width: 100%;
-    height: 95px;
-    margin-bottom: 5px;
+    height: 90px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-evenly;
   }
   #row3 {
     width: 100%;
-    height: 95px;
-    margin-bottom: 5px;
+    height: 90px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-evenly;
   }
   #row4 {
     width: 100%;
-    height: 95px;
-    margin-bottom: 5px;
+    height: 90px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-evenly;
   }
   #row5 {
     width: 100%;
-    height: 95px;
+    height: 90px;
     display: flex;
     justify-content: space-evenly;
   }
