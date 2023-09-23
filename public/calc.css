@@ -9,17 +9,16 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-image: url("https://images.unsplash.com/photo-1596367407372-96cb88503db6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-position: center center;
+  background-image: url("https://images.unsplash.com/photo-1537017469405-7faf1912af7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80");
 }
 
 #container {
   width: 380px;
   height: 550px;
   border: 1px;
-
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 40px;
+  background: #01033469;
+  border-radius: 30px;
 }
 #title {
   padding-top: 24px;
@@ -31,6 +30,20 @@ body {
   font-size: 16px;
   letter-spacing: 0.8px;
   line-height: 24px;
+}
+#currentAns {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  text-shadow: 0 0 8px rgb(209, 17, 129);
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin-top: 5px;
+  margin-right: 28px;
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow: hidden;
 }
 
 #textContainer {
@@ -44,7 +57,7 @@ body {
   width: 300px;
   height: 130px;
   border: 1px;
-  background: #cce5f3;
+  background: #00000065;
   border-radius: 16px;
 }
 
@@ -93,17 +106,20 @@ body {
 .button11 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   width: 65px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #9196a4;
 }
 
 .button12 {
@@ -111,59 +127,72 @@ body {
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #9196a4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
 }
 .button13 {
   width: 65px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #9196a4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
 }
 .button14 {
   width: 65px;
   height: 56px;
   border-radius: 10px;
-  background-color: #373d4d;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   font-size: 24px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
 }
 .button21 {
   width: 65px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
+
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
 }
 
 .button22 {
@@ -171,59 +200,74 @@ body {
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
 }
 .button23 {
   width: 65px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 .button24 {
   width: 65px;
   height: 56px;
   border-radius: 10px;
-  background-color: #373d4d;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 .button31 {
   width: 65px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 
 .button32 {
@@ -231,59 +275,75 @@ body {
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
 }
 .button33 {
   width: 65px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 .button34 {
   width: 65px;
   height: 56px;
   border-radius: 10px;
-  background-color: #373d4d;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   font-size: 24px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
 }
 .button41 {
   width: 65px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 
 .button42 {
@@ -291,59 +351,74 @@ body {
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
 }
 .button43 {
   width: 65px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 .button44 {
   width: 65px;
   height: 56px;
   border-radius: 10px;
-  background-color: #373d4d;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 .button51 {
   width: 114px;
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
   font-size: 20px;
   line-height: 56px;
   vertical-align: middle;
   padding-left: 28px;
-  color: #ffffff;
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 
 .button52 {
@@ -351,29 +426,39 @@ body {
   height: 56px;
   margin-right: 11px;
   border-radius: 10px;
-  background-color: #505f87;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 .button53 {
   width: 65px;
   height: 56px;
   border-radius: 10px;
-  background-color: #373d4d;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 200;
+
   font-size: 20px;
   line-height: 56px;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+
+  font-weight: 400;
+  text-shadow: 0 0 10px rgb(255, 216, 239), 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+    0 0 40px #e64394;
+  color: rgb(255, 255, 255);
+  background-color: rgba(22, 22, 22, 0.864);
+  border: 2px solid rgba(82, 82, 82, 0.179);
 }
 
 #previousAns {
@@ -389,90 +474,19 @@ body {
   font-weight: 300;
 }
 
-#currentAns {
-  display: flex;
-  justify-content: right;
-  text-align: right;
-  color: #000000;
-  margin-top: 5px;
-  margin-right: 28px;
-  font-size: 22px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 400;
-  overflow: hidden;
-}
-
-/* @media only screen and (max-width: 850px) {
-  body {
-    background-image: none;
-  }
-  #container {
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.7);
-  }
-  #title {
-    padding-top: 30px;
-    padding-bottom: 26px;
-    display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 27px;
-    letter-spacing: 0.8px;
-    line-height: 24px;
-  }
-  #ans {
-    width: 82%;
-    height: 360px;
-  }
-  #row1 {
-    width: 82%;
-    height: 110px;
-    margin-bottom: 10px;
-    display: flex;
-  }
-
-  #row2 {
-    width: 82%;
-    height: 110px;
-    margin-bottom: 10px;
-    display: flex;
-  }
-  #row3 {
-    width: 82%;
-    height: 110px;
-    margin-bottom: 10px;
-    display: flex;
-  }
-  #row4 {
-    width: 82%;
-    height: 110px;
-    margin-bottom: 10px;
-    display: flex;
-  }
-  #row5 {
-    width: 82%;
-    height: 110px;
-    display: flex;
-  }
-} */
 @media only screen and (max-width: 600px) {
-  body {
-    background-image: none;
-  }
   #container {
+    background-color: transparent;
     width: 100%;
-    height: 100%;
-    background: rgba(255, 249, 249, 0.7);
+    height: 80%;
+    /* margin-top: 10vh; */
   }
   #containButtons {
     margin-top: 30px;
   }
   #title {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     display: flex;
     justify-content: center;
     font-family: sans-serif;
@@ -677,41 +691,24 @@ body {
     vertical-align: middle;
     margin-right: 4px;
   }
-  /* #textContainer{
-    margin-top: 50px;
-  } */
   #allButtons {
     width: 74%;
     height: 0;
   }
-  #container {
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 249, 249, 0.7);
-  }
   #previousAns {
-    display: flex;
-    justify-content: right;
-    text-align: right;
-    color: #818181;
     margin-top: 150px;
     margin-right: 28px;
     font-size: 18px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 300;
   }
-
   #currentAns {
-    display: flex;
-    justify-content: right;
-    text-align: right;
-    color: #000000;
-    margin-top: 8px;
-    margin-right: 28px;
-    font-size: 24px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
+    text-shadow: 0 0 15px rgb(209, 17, 129);
+  }
+}
+@media only screen and (max-width: 400px) {
+  #ans {
+    height: 100px;
+  }
+  #currentAns {
+    margin-top: -100px;
   }
 }
