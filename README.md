@@ -2,7 +2,7 @@
 
 I built this responsive calculator website using Javascript, CSS, and HTML. I enjoyed designing the website and implementing the functions and learning more about using Javascript functionsc.
 
-Link to website: <b><a>[https://calculatorbymrla.web.app/]</a></b>
+Link to website: <b><a>(https://calculatorbymrla.web.app/)</a></b>
 
 ## Problems & Solutions 💭
 
